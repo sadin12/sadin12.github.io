@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: left;
+    font-family: sans-serif;
+    color: white;
+    margin-top:7rem;
+    background: url(./work2.jpeg);
+   background-repeat: no-repeat;
+   background-size:cover;
+  
+}
+#body{
+    max-width: 100%;
+    background:#2b2f3a;
+    opacity: 0.9;
+    width: 500px;
+    margin: auto;
+   
+}
+#body{
+    padding: 50px;
+}
+
+#title{
+   
+    margin:30px 0 7px 0 ;
+}
+#description{
+margin: 0 0 50px 0;
+}
+input {
+   margin: 10px 0 10px 0;
+}
+.songs{
+    margin:5px 0 10px 0;
+}
+
+.radio p{
+    margin:10px 0 0 0 ;
+}
+#chekbox {
+display: block;
+
+}
+#description{
+    text-align: center;
+}
+#name{
+    width: 100%;
+    padding: 10px ;
+    border-radius:10px ;
+}
+#name{
+    margin-bottom:20px;
+}
+
+#email{
+    width: 100%;
+    padding: 10px;
+    border-radius:10px;
+}
+#email{
+    margin-bottom:20px;
+}
+
+#number{
+    width: 100%;
+    padding: 10px;
+    border-radius:10px;
+}
+#number{
+    margin-bottom:20px;
+}
+#dropdown{
+    width: 100%;
+    padding: 10px;
+    border-radius:10px;
+}
+#dropdown{
+    margin-bottom:20px;
+}
+.radio p{
+    margin-bottom:5px;
+}
+#newrap{
+    margin:0;
+}
+.radio{
+    margin-bottom:15px;
+}
+#label6{
+    margin-bottom:20px;
+}
+#chekbox p{
+margin: 0 0 5px 0;
+}
+#texare p{
+margin-bottom:17px;
+}
+#texare{
+ width: 100%;
+ padding:0.6rem;
+}
+label{
+    color:#2b2f3a;
+}
+#submit{
+    width:100%;
+    padding:10px;
+    border: 0px solid green;
+    border-radius: 5px;
+    background: green;
+    color: white;
+}
+
+/*maedi*/
+@media (max-width:600px){
+    #title{
+        width: 90%;
+    }
+    #description{
+        text-align: center;
+
+    }
+    #name{
+       width: 80%;
+    }
+    #email{
+        width: 80%;
+    }
+    #number{
+        width: 80%;
+    }
+    #dropdown{
+        width: 85%;
+    }
+    
+    #submit{
+        width: 80%;
+    }
+}

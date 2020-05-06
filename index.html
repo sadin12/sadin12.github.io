@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey form/freecodecamp >Challenges </title>
+</head>
+<link rel="stylesheet" href="./staly.css">
+<body>
+   
+    <div id="body">
+    <header>
+   <h1 id="title">What music do you like to listen to?</h1>
+   <p id="description"> Choose your favorite song from this form</p>
+</header id="body1">
+<form id="survey-form" action="">
+    <div id="text-n">
+    <label id="name-label" for="name" >p</label>
+  <p>Name:</p>
+   <input id="name" type="text" name="name" placeholder="Enter your name " required><br>
+
+   <label id="email-label" for="email">p</label>
+  <p>Email:</p>
+   <input type="email" id="email" name="email" placeholder="Enter your name " required><br>
+
+   <label id="number-label" for="number" >p</label>
+  <p>Number:</p>
+   <input type="number" name="number" id="number" min="0" max="100" placeholder="Number"  required>
+</div>
+ <p class="songs">What you mean about this song?</p class="songs">
+   <select  name="name" id="dropdown">
+       <option  disabled selected value>Selest an option</option>
+       <option value="name">Challenges</option>
+       <option value="somting">Projects</option>
+       <option value="community">Community</option>
+   </select>
+   <div class="radio">
+   <p>What is your favorite song?</p>
+
+       <input type="radio" name="gender" id="oldrap" value="old rap">Old Rap<br>
+    
+  <input type="radio" name="gender" id="newrap" value="new rap">New Rap<br>
+  <input type="radio" name="gender" id="othersongs" value="other songs">Other Songs
+</div>
+<div id="chekbox">
+  
+    <p>
+        Which songs are the most popular on the Internet?</p>
+        <input type="checkbox" name="label1" id="frste" value="label1">Front-end Projects <br>
+    <input type="checkbox" name="label2" id="seckond" value="label2">Back-end Projects <br>
+<input type="checkbox" name="label3" id="label3" value="label3">Data Visualization <br>
+<input type="checkbox" name="label4" id="label4" value="label4">Challenges <br>
+<input type="checkbox" name="label5" id="label5" value="label5">Open Source Community <br>
+<input type="checkbox" name="label6" id="label6" value="label6">Gitter help rooms <br>
+</div >
+
+<div id="texare">
+    <p>Any comments or suggestions?</p>
+<textarea name="name" id="text1" cols="30" rows="10" ></textarea>
+</div>
+<input type="submit" id="submit" value="Submit">
+</div>
+</form>
+
+
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
